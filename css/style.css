@@ -3,8 +3,11 @@
 }
 
 body {
-	background: #FAEBD7 url('../images/vintage-concrete.png');
+	background: #FAEBD7 url('https://news.artnet.com/app/news-upload/2014/12/M13_1970_142x142cm-608x600@1x.png');
 	color: #333;
+	min-height: 100px;
+	min-width: 500px;
+
 }
 
 a {
@@ -21,17 +24,19 @@ header, nav, main, footer {
 
 
 /* Header styles */
+
 header { 
 	background-color: #000;
-	color: BlanchedAlmond;
+	color: rgb(235, 57, 235);
 	min-height: 100px;
 	margin-top: 60px;
-	background-image: url("../images/stars.jpeg");
+	background-image: url("https://images.fineartamerica.com/images-medium-large/warped-checkers-brad-hartung.jpg");
 }
 
 header h1 {
 	padding: 40px 60px;
 	font-size: 48px;
+	font-weight: bolder;
 }
 
 
