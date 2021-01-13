@@ -1,8 +1,8 @@
 /*
 font-family: 'Arvo', Serif;
-font-size: 44px;
+font-size: 55px;
 font-family: 'Lato', Sans-Serif;
-font-size: 16px;
+font-size: 15px;
 */
 
 
@@ -11,13 +11,13 @@ font-size: 16px;
 }
 
 body {
-	font-family: 'Fira Sans', Sans-Serif;
+	font-family: 'Lato', Sans-Serif;
 	font-size: 20px;
 	color: #666;
 	margin: 0;
 }
 header {
-	background-image: url(../typography-asgmt/images/STruth.jpg);
+	background-image: url(../images/st1.jpg);
 	background-size: cover;
 	width: 100vw;
 }
@@ -25,6 +25,7 @@ header.grid-header {
 	display: flex;
 	justify-content: space-between;
 }
+
 h1, h2 {
 	font-family: 'Arvo', Serif;
 }
@@ -35,8 +36,10 @@ h1 {
 	writing-mode: vertical-rl;
 	text-orientation: mixed;
 }
+
 h2 {
 	font-size: 60px;
+	margin-top: 400px;
 	margin-right: 40px;
 	text-align: right;
 	
@@ -46,9 +49,13 @@ p {
 	line-height: 32px;
 }
 
+em { 
+	font-weight: bold; 
+}
+
 main {
 	width: 80%;
-	margin: auto;
+	margin: 60px auto;
 }
 blockquote {
 	font-style:italic;
@@ -64,7 +71,8 @@ blockquote::before {
   content: "“";
 }
 
-blockquote em { font-weight: bold; color: #a0c012; font-size: 68px; }
+blockquote em { font-weight: bold; color: #ff9900; font-size: 68px; }
+
 
 .grid-main {
 	display: flex;
@@ -73,8 +81,17 @@ blockquote em { font-weight: bold; color: #a0c012; font-size: 68px; }
 .grid-main p {
 	margin:60px;
 }
+.grid-main p:nth-child(1) {
+	flex: 45%;
+}
+.grid-main p:nth-child(2) {
+	flex: 55%;
+}
 .intro span {
 	font-size: 60px; 
 	font-weight:bold;
 	font-family: 'Arvo', Serif;
+}
+.first {
+	font-size: 32px;
 }
