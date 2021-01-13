@@ -1,7 +1,7 @@
 /*
-font-family: 'Cormorant Garamond', Serif;
+font-family: 'PT+Serif', Serif;
 font-size: 55px;
-font-family: 'Fira Sans', Sans-Serif;
+font-family: 'Space+Mono', Sans-Serif;
 font-size: 15px;
 */
 
@@ -11,7 +11,7 @@ font-size: 15px;
 }
 
 body {
-	font-family: 'Fira Sans', Sans-Serif;
+	font-family: 'Space+Mono', Sans-Serif;
 	font-size: 20px;
 	color: #666;
 	margin: 0;
@@ -27,15 +27,14 @@ header.grid-header {
 }
 
 h1, h2 {
-	font-family: 'Cormorant Garamond', Serif;
-	color: rgba(255,255,255,.6);
+	font-family: 'PT+Serif', Serif;
+	color: rgba(207, 126, 21, 0.911);
 }
 
 h1 {
 	font-size: 90px;
 	margin: 0;
-	writing-mode: vertical-rl;
-	text-orientation: mixed;
+	
 	padding: 20px 10px;
 }
 
@@ -63,7 +62,7 @@ main {
 blockquote {
 	font-style:italic;
 	font-size: 48px;
-	font-family: 'Cormorant Garamond', Serif;
+	font-family: 'PT+Serif', Serif;
 	text-align: center;
 }
 blockquote::after {
@@ -74,7 +73,7 @@ blockquote::before {
   content: "“";
 }
 
-blockquote em { font-weight: bold; color: #ff9900; font-size: 68px; }
+blockquote em { font-weight: bold; color: #51ca19; font-size: 68px; }
 
 
 .grid-main {
@@ -93,7 +92,7 @@ blockquote em { font-weight: bold; color: #ff9900; font-size: 68px; }
 .intro span {
 	font-size: 60px; 
 	font-weight:bold;
-	font-family: 'Cormorant Garamond', Serif;
+	font-family: 'PT+Serif', Serif;
 }
 .first {
 	font-size: 32px;
