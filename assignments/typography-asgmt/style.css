@@ -1,0 +1,80 @@
+/*
+font-family: 'Arvo', Serif;
+font-size: 44px;
+font-family: 'Lato', Sans-Serif;
+font-size: 16px;
+*/
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Fira Sans', Sans-Serif;
+	font-size: 20px;
+	color: #666;
+	margin: 0;
+}
+header {
+	background-image: url(../typography-asgmt/images/STruth.jpg);
+	background-size: cover;
+	width: 100vw;
+}
+header.grid-header {
+	display: flex;
+	justify-content: space-between;
+}
+h1, h2 {
+	font-family: 'Arvo', Serif;
+}
+
+h1 {
+	font-size: 90px;
+	margin: 0;
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+}
+h2 {
+	font-size: 60px;
+	margin-right: 40px;
+	text-align: right;
+	
+}
+
+p {
+	line-height: 32px;
+}
+
+main {
+	width: 80%;
+	margin: auto;
+}
+blockquote {
+	font-style:italic;
+	font-size: 48px;
+	font-family: 'Arvo', Serif;
+	text-align: center;
+}
+blockquote::after {
+  content: "”";
+}
+
+blockquote::before {
+  content: "“";
+}
+
+blockquote em { font-weight: bold; color: #a0c012; font-size: 68px; }
+
+.grid-main {
+	display: flex;
+}
+
+.grid-main p {
+	margin:60px;
+}
+.intro span {
+	font-size: 60px; 
+	font-weight:bold;
+	font-family: 'Arvo', Serif;
+}
