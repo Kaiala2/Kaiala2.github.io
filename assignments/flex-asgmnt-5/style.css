@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    background-color: yellow;
+    font-family: 'Helvetica', sans-serif;
+}
+img {
+    width: 100%;
+}
+
+.some-pics {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+p {
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.some-pics .child {
+    flex: 100%;
+    padding: 10px;
+    filter: invert(100%) grayscale(100%);
+}
+
+.some-pics .child:hover {
+    background: rgb(0, 0, 0);
+}
+
+.info {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+section.info article {
+    padding: 10px;
+}
+
