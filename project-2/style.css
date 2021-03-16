@@ -2,3 +2,73 @@
     box-sizing: border-box;
     background-color: black;
 }
+a:link {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+body {
+    font-family: Supply, Helvetica;
+}
+.options {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+   border-style: solid;
+   border-width: thin; 
+   font-weight: lighter;
+}
+
+.shop{
+    padding: 5px;
+    width: 160px;
+}
+
+.sell{
+    padding: 5px;
+    width: 160px;
+}
+
+.ourlabel{
+    padding: 5px;
+    width: 160px;
+}
+
+.contact{
+    padding: 5px;
+    width: 160px;
+}
+
+.search{
+    padding: 5px;
+    width: 160px;
+}
+
+.store {
+    filter: grayscale(100%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}    
+.logo {
+    height: 15em;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+@font-face {
+    font-family: "Supply";
+    src: url("fonts/Supply-UltraLight.ttf");
+  }
+
+  body { font-family: "Supply", serif }
+  
