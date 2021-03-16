@@ -65,6 +65,26 @@ body {
     align-items: center;
     justify-content: center
 }
+.vinyl {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+}
+.vinyl div {
+    flex: 25%;
+  }
+.vinyl .records {
+    padding: 10px;
+}
+.vinyl .records img {
+	-webkit-filter: grayscale(100%) !important;
+	filter: grayscale(100%) !important;
+}
+.vinyl .records img:hover {
+	-webkit-filter: grayscale(0) !important;
+	filter: grayscale(0) !important;
+}
 @font-face {
     font-family: "Supply";
     src: url("fonts/Supply-UltraLight.ttf");
