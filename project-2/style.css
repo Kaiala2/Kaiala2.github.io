@@ -232,3 +232,83 @@ a:link {
     padding: 5px;
     width: 180px;
 }
+
+form{
+    color: white;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+   border-style: solid;
+   border-width: thin; 
+   font-weight: lighter;
+   font-family: Supply, Helvetica;
+   font-style: normal;
+}
+
+
+.searching {
+    color: white;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+   border-style: solid;
+   border-width: thin; 
+   font-weight: lighter;
+   font-family: Supply, Helvetica;
+   font-style: normal;  
+}
+
+.searched{
+    
+    width: 600px;
+}
+.textbox{
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+   font-weight: lighter;
+}
+.submitbox {
+    color: white;
+   
+    display: flex;
+    
+
+   border-style: solid;
+   border-width: thin; 
+   font-weight: lighter;
+   font-family: Supply, Helvetica;
+   font-style: normal;
+}
+
+form{
+    padding: 5px;
+    width: 700px;
+}
+
+.svinyl {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+}
+.svinyl div {
+    flex: 25%;
+  }
+.svinyl .srecords {
+    padding: 10px;
+}
+.svinyl .srecords img {
+    opacity: .2;
+	-webkit-filter: grayscale(100%) !important;
+	filter: grayscale(100%) !important;
+}
+.svinyl .srecords img:hover {
+    opacity: 100;
+	-webkit-filter: grayscale(0) !important;
+	filter: grayscale(0) !important;
+}
