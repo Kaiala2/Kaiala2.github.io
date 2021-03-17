@@ -13,9 +13,6 @@ a:link {
   a:active {
     text-decoration: underline;
   }
-body {
-    font-family: Supply, Helvetica;
-}
 .options {
     color: white;
     text-align: center;
@@ -25,6 +22,9 @@ body {
    border-style: solid;
    border-width: thin; 
    font-weight: lighter;
+   font-family: Supply, Helvetica;
+   font-style: normal;
+   
 }
 
 .shop{
@@ -64,12 +64,31 @@ body {
     opacity: .3;
     filter: grayscale(100%) !important;
 }
+
+.recordshelf2{
+    position: relative;
+    padding-top: 50px;
+    opacity: .3;
+    filter: grayscale(100%) !important;
+}
+
+.map{
+    position: relative;
+    width: 30%;
+    height: 40%;
+    top: -300px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    filter: grayscale(100%) !important;
+}
+
 .logo {
     height: 15em;
     display: flex;
     align-items: center;
     justify-content: center
 }
+
 .vinyl {
     display: flex;
     flex-wrap: wrap;
@@ -93,9 +112,14 @@ body {
 @font-face {
     font-family: "Supply";
     src: url("fonts/Supply-UltraLight.ttf");
+    font-style: normal;
   }
-
-  body { font-family: "Supply", serif }
+  @font-face {
+    font-family: "Supply";
+    src: url("fonts/Supply-Bold.ttf");
+    font-style: oblique;
+  }
+  
 
   .see-more {
     color: white;
@@ -108,5 +132,103 @@ body {
    border-width: thin; 
    font-weight: lighter;
   }
-
   
+  .info{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: Supply, Helvetica;
+    font-style: oblique;
+    
+  }
+
+  .sellinfo{
+      color: white;
+      z-index: 100;
+      position: absolute;
+      color: white;
+      font-weight: bold;
+      left: 300px;
+      right: 300px;
+      top: 100px;
+      
+  }
+
+  .sellbuy {
+      font-size: 60pt;
+      font-family: Supply, Helvetica;
+      
+  }
+
+  h2{
+      font-size: 20pt;
+  }
+  p {
+    font-style: normal; 
+  }
+
+  ul {
+    text-align: justify;
+    padding-left: 300px;
+    list-style-position: inside;
+    font-style: normal;
+}
+.selling {
+    font-style: normal;
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.sellinglast {
+    font-style: normal;
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-style: oblique;
+}
+
+.filter {
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto; 
+        font-style: oblique;
+}
+
+.filteroptions {
+    display: flex;
+    font-family: Supply, Helvetica;
+    font-size: px;
+    text-align: center;
+}
+
+.all{
+    font-style: oblique;
+    padding: 5px;
+    width: 160px;
+}
+
+.cd{
+    font-style: oblique;
+    padding: 5px;
+    width: 160px;
+}
+
+.out{
+    font-style: oblique;
+    padding: 5px;
+    width: 160px;
+}
+
+.pre{
+    font-style: oblique;
+    padding: 5px;
+    width: 160px;
+}
+
+.vin{
+    font-style: oblique;
+    padding: 5px;
+    width: 180px;
+}
