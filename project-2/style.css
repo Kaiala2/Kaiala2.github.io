@@ -27,14 +27,25 @@ a:link {
    
 }
 
+.shop h2 {
+    font-size: 15pt;
+}
+
 .shop{
     padding: 5px;
     width: 160px;
 }
 
+.sell h2 {
+    font-size: 15pt;
+}
 .sell{
     padding: 5px;
     width: 160px;
+}
+
+.ourlabel h2 {
+    font-size: 15pt;
 }
 
 .ourlabel{
@@ -42,9 +53,17 @@ a:link {
     width: 160px;
 }
 
+.contact h2 {
+    font-size: 15pt;
+}
+
 .contact{
     padding: 5px;
     width: 160px;
+}
+
+.search h2 {
+    font-size: 15pt;
 }
 
 .search{
@@ -65,20 +84,18 @@ a:link {
     filter: grayscale(100%) !important;
 }
 
-.recordshelf2{
+.pics .recordshelf2{
     position: relative;
-    padding-top: 50px;
+    bottom: 10px;
+    width: 100%;
     opacity: .3;
     filter: grayscale(100%) !important;
 }
 
-.map{
-    position: relative;
-    width: 30%;
-    height: 40%;
-    top: -300px;
-    margin: 0 auto;
-    padding-bottom: 40px;
+.google .map{
+    position: absolute;
+    top: 90%;
+    left: 26%;
     filter: grayscale(100%) !important;
 }
 
@@ -144,12 +161,9 @@ a:link {
 
   .sellinfo{
       color: white;
-      z-index: 100;
-      position: absolute;
+      
       color: white;
       font-weight: bold;
-      left: 300px;
-      right: 300px;
       top: 100px;
       
   }
@@ -169,7 +183,7 @@ a:link {
 
   ul {
     text-align: justify;
-    padding-left: 300px;
+    padding-left: 100px;
     list-style-position: inside;
     font-style: normal;
 }
@@ -196,11 +210,11 @@ a:link {
         font-style: oblique;
 }
 
-.filteroptions {
+.filter .filteroptions {
     display: flex;
     font-family: Supply, Helvetica;
-    font-size: px;
     text-align: center;
+    
 }
 
 .all{
@@ -314,5 +328,7 @@ form{
 }
 
 @media only screen and (min-width: 768px) {
-    
+    .shop h2 {
+    font-size: 15pt;
+}
 }
