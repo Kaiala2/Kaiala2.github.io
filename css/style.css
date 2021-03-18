@@ -4,18 +4,27 @@
 
 body {
 	background: #FAEBD7 url('https://news.artnet.com/app/news-upload/2014/12/M13_1970_142x142cm-608x600@1x.png');
-	color: #333;
+	background-size: cover;
+	color: rgb(0, 0, 0);
 	min-height: 100px;
 	min-width: 500px;
+	margin-top: 10%;
 
+}
+
+img {
+	margin-top: 40px;
+	width: 90%;
+	-webkit-filter: grayscale(100%) !important;
+	filter: grayscale(100%) !important;
 }
 
 a {
 	text-decoration: none;
-	color: #333;
+	color: rgb(0, 0, 0);
 }
 
-a:hover { color: Tomato; }
+a:hover { color: rgb(248, 126, 212); }
 
 header, nav, main, footer {
 	width: 80%;
@@ -26,11 +35,15 @@ header, nav, main, footer {
 /* Header styles */
 
 header { 
-	background-color: #000;
-	color: rgb(235, 57, 235);
+	background-color: rgb(0, 0, 0);
+	font-family: Helvetica, sans-serif;
+	padding-top: 30px;
+	text-align: center;
+	color: rgb(243, 231, 119);
 	min-height: 100px;
 	margin-top: 60px;
-	background-image: url("https://images.fineartamerica.com/images-medium-large/warped-checkers-brad-hartung.jpg");
+	
+	
 }
 
 header h1 {
@@ -41,18 +54,20 @@ header h1 {
 
 
 /* Nav styles */
-nav { background-color: #333; }
+nav { 
+	font-family: Helvetica, sans-serif;background-color: rgb(255, 161, 224); }
 nav ul { 
 	display: flex;
 	justify-content: flex-end;
 }
 nav li { padding: 10px 10px; }
-nav a { color: BlanchedAlmond; }
-nav a:hover { color: white; }
+nav a { color: rgb(0, 0, 0); }
+nav a:hover { color: rgb(252, 126, 252); }
 
 
 /* Main styles */
 main { 
+	font-family: Helvetica, sans-serif;
 	background-color: #fff;
 	display: grid;
 	grid-template-columns: 60% 40%;
@@ -75,6 +90,7 @@ aside {
 
 /* Footer styles */
 footer { 
+	font-family: Helvetica, sans-serif;
 	background-color: #000;
 	color: white;
 	text-align: center;
